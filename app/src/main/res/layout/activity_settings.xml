@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skin_light" >
+
+    <TextView
+        android:id="@+id/textView_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/settings"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/view_0"
+        android:layout_width="fill_parent"
+        android:layout_height="5px"
+        android:layout_below="@id/textView_0"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:id="@+id/relative_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_0"
+        android:paddingBottom="3dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="3dp" >
+
+        <ImageView
+            android:id="@+id/imageView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/lightbulb" />
+
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView_1"
+            android:text="@string/led"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_1"
+            android:layout_toRightOf="@id/imageView_1"
+            android:text="@string/close"
+            android:textColor="#696969" />
+
+        <CheckBox
+            android:id="@+id/ledonBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/relative_1"
+        android:background="#696969" />
+
+    <RelativeLayout
+        android:id="@+id/relative_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_1"
+        android:paddingBottom="3dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="3dp" >
+
+        <ImageView
+            android:id="@+id/imageView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/sound" />
+
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView_2"
+            android:text="@string/sound"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_2"
+            android:layout_toRightOf="@id/imageView_2"
+            android:text="@string/close"
+            android:textColor="#696969" />
+
+        <CheckBox
+            android:id="@+id/soundBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/relative_2"
+        android:background="#696969" />
+
+    <RelativeLayout
+        android:id="@+id/relative_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_2"
+        android:paddingBottom="3dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="3dp" >
+
+        <ImageView
+            android:id="@+id/imageView_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/wallpaper" />
+
+        <TextView
+            android:id="@+id/textView_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView_3"
+            android:text="@string/skin"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView_33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_3"
+            android:layout_toRightOf="@id/imageView_3"
+            android:text="@string/close"
+            android:textColor="#696969" />
+
+        <CheckBox
+            android:id="@+id/skinBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_3"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/relative_3"
+        android:background="#696969" />
+
+</RelativeLayout>
